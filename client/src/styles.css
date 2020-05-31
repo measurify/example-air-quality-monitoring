@@ -1,0 +1,191 @@
+body {
+  font-family: sans-serif;
+  margin: auto;
+}
+
+.card-main {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 10%;
+  width: 80%;
+  text-align: center;
+  padding-bottom: 10px;
+  color: black;
+}
+
+.card-text {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.card-tables {
+  box-shadow: 10px 10px 5px 0px rgba(238, 238, 238, 1);
+  position: relative;
+  margin-top: 30px;
+  width: 50%;
+  left: 25%;
+  right: 25%;
+  text-align: center;
+  padding-bottom: 10px;
+  height: auto;
+  
+}
+
+.card-main p {
+  float: left;
+}
+
+.presentation {
+  margin-top: 20px;
+}
+
+.card-par {
+  margin-bottom: 10pt;
+}
+
+.divPAR {
+  display: inline;
+}
+
+.divHeadPAR {
+  display: inline;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.tab-title {
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  font-family: 'amiri';
+}
+
+.circuit {
+  position: relative;
+  width: 50%;
+}
+
+.select-minutes {
+  margin-left: 10px;
+}
+
+.set-button {
+  margin-top: 10px;
+  background-color: #f5f5f0;
+  font-weight: bold;
+}
+
+h1 {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+
+.body-cell {
+  color: black;
+}
+
+
+/* Pagination links */
+.pagination {
+  overflow: hidden;
+}
+
+.pagination a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-click */
+.pagination a:active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Style the menu with a grey background and some padding */
+.menu {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+/* Style the menu links */
+.menu a {
+  float: left;
+  color: black;
+  text-align: center;
+  /*margin-top: 12px;*/
+  padding: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.menu h1 {
+  float: left;
+  margin-left: 21%;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+}
+
+/* Style the logo (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.menu img.logo-diten {
+  float: right;
+  width: 120px;
+  height: 36px;
+  margin-top: 7px;
+  margin-right: 7px;
+}
+
+/* Style the logo (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.menu img.logo-unige {
+  float: right;
+  width: 120px;
+  height: 50px;
+  /*margin-top: 7px;*/
+  margin-right: 20px;
+}
+
+/* Change the background color on mouse-over */
+.menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+.menu a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.menu-left {
+  float: left;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .menu a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .menu-right {
+    float: none;
+  }
+}
+
+.chart-title-div {
+  margin-top: 35px;
+}
